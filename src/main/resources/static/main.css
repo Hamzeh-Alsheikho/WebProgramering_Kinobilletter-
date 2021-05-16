@@ -1,0 +1,29 @@
+
+input:focus {
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+#velgFilmen:focus{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+#velgFilmen{
+    font-size: 130%;
+    width: 180px;
+}
+#kvittering{
+    text-align: center;
+}
+table th {
+    text-align: center;
+    background-color: #48504E;
+    color: white;
+    padding-top: 7px;
+    font-family: Calibri;
+}
+#vis{
+    margin-left: 55px;
+}
