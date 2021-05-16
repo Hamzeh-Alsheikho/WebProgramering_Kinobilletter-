@@ -18,7 +18,7 @@ public class KundeController{
     KundeRepository rep;
     @PostMapping("/lagre")
     public void lagreKunde(Kunde innKunde,  HttpServletResponse response) throws IOException {
-       if (rep.lagreKunde(innKunde)){
+       if (!rep.lagreKunde(innKunde)){
            response.sendError(HttpStatus.INTERNAL_SERVER_ERROR.value(),"Feil i DB prøv- igjen senere");
        }
     }
